@@ -12,10 +12,9 @@
 - Tube 1 is isotype control 
 - tube 8 unstained
 - five protein markers per tube
-- forward scatter (FSC) and side scatter (SSC), reflecting cell size and granularity
+- forward scatter (FSC) and side scatter (SSC), SS is a rough indicator of cellular granularity, membrane complexity, number of organelles, etc. and FS is roughly proportional to cell size.  
 
 ![targeted protein per tube and channel](./markercombi.png =400x)
-
 
 - measurement by flow cytometry
 - channel 3 identical in each blood sample (CD45)
@@ -28,6 +27,13 @@
 1440 NA -> 180 subjects in testing set  
 184 aml -> 23 subjects in training set  
 1248 normal -> 156 in training set 
+
+
+**Data Source**
+
+Spidlen J, Shooshtari P, Kollmann TR, Brinkman RR (2011). “Flow cytometry data standards”, BMC Res Notes, 4:50.
+
+https://www.synapse.org/#!Synapse:syn2887788/wiki/72180
 
 ###Biology
 - identify a subpopulation of lymphoma cells with impaired B-cell antigen receptor signaling, whose abundance was negatively correlated with survival
